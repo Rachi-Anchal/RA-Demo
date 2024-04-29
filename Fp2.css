@@ -1,0 +1,51 @@
+body {
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #071952;
+    color: #fff;
+    padding: 10px 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border: 5px solid #0B666A;
+}
+.logo h1{
+    margin:0;
+}
+
+.user-section{
+    display:flex;
+    align-items:center;
+}
+
+.user-section a{
+    color:#fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.user-section input[type="text"]{
+    padding:5px;
+    margin-left:10px;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+.user-section button{
+    padding: 5px 10px;
+    margin-left:5px;
+    background-color: #0cc493;
+    border:none;
+    border-radius: 5px;
+    color:#fff;
+    cursor:pointer;
+}
+.user-section button:hover{
+    background-color: #45a049;
+}
+
+
+
+
